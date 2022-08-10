@@ -1,0 +1,10 @@
+# Databricks notebook source
+bronze_data="/mnt/poc/"
+silver_data="/mnt/poc/silver-data/"
+gold_data="/mnt/poc/gold-data/"
+badrecordspath="/mnt/poc/badRecordsPath/"
+gold_aggregate_data_customers="/mnt/poc/gold-aggregate-data/customers"
+gold_aggregate_data_orders="/mnt/poc/gold-aggregate-data/orders"
+gold_aggregate_data_payments="/mnt/poc/gold-aggregate-data/payments"
+container_name="bronze-data"
+storage_acc_name="adlspocsa"
